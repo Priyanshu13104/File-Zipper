@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         </div>
         
         <a 
-          href="https://github.com/Priyanshu13104/easy-file-zipper/tree/main" 
+          href="https://github.com/Priyanshu13104/File-Zipper" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-2 hover:text-primary transition-colors"
