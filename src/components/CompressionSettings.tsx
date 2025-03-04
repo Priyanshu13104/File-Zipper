@@ -136,36 +136,7 @@ const CompressionSettings: React.FC<CompressionSettingsProps> = ({
           </RadioGroup>
         </div>
       </div>
-
-      {/* COMPRESSION LEVEL SLIDER */}
-      <div className="space-y-4 bg-secondary/30 rounded-lg p-4">
-        <div className="flex items-center justify-between">
-          <h4 className="font-medium">Compression Level</h4>
-          <Badge variant={strengthInfo.variant}>{strengthInfo.label}</Badge>
-        </div>
         
-        <Slider
-          value={[compressionLevel]}
-          min={1}
-          max={9}
-          step={1}
-          onValueChange={(value) => setCompressionLevel(value[0])}
-          className="mt-2"
-        />
-        
-        <div className="flex justify-between text-xs text-muted-foreground">
-          <span>Faster</span>
-          <span>Smaller File Size</span>
-        </div>
-        
-        <div className="text-sm mt-2">
-          <p>
-            Level {compressionLevel}: {compressionLevel <= 3 ? "Faster compression with larger file size" : 
-              compressionLevel <= 6 ? "Balanced between speed and file size" : 
-              "Maximum compression with smaller file size (slower)"}
-          </p>
-        </div>
-      </div>
 
       <div className="bg-secondary/50 rounded-lg p-4 text-sm">
         <h4 className="font-medium mb-2">Algorithm Details</h4>
