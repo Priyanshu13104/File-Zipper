@@ -69,14 +69,21 @@ Make sure you have the following installed on your machine:
   - Click the **Compress** button to start the process.
 
   - Once compression is complete, download your compressed file.
+  <br>
 
 ## Preview
+<br>
 
-![Home Page](./public/Home_page.png)
+***Landing Page***
+![Landing Page](./public/Home_page.png)
+<br>
 
-![Home Page](./public/Zip_page.png)
+***Zip Page***
+![Zip Page](./public/Zip_page.png)
+<br>
 
-![Home Page](./public/Zip_settings.png)
+***Zip Settings***
+![Zip Settings](./public/Zip_settings.png)
 
 
 
